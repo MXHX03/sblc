@@ -1,0 +1,37 @@
+/* align to the left */
+#what .items .item{
+display: flex;
+text-align: left;
+}
+
+/* position icons */
+#what .items .item i{
+    align-self: center;
+    padding: 1rem;
+    margin-right: 1.3rem;
+    margin-bottom: 0;
+}
+
+#contact .map{
+    flex: 2;
+}
+.toggler{
+    visibility: hidden;
+    z-index: 1;
+    position: absolute;
+}
+/* .hambuger{
+    visibility: hidden;
+    height: 0;
+    z-index: 1;
+} */
+
+@media(max-width:780px){
+
+    .toggler{
+        visibility: hidden;
+        background: inherit;
+        z-index: 1;
+        position: absolute;
+    }
+}
